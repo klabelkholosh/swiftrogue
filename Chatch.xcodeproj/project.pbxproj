@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		63EC6B891D2D414F0010D564 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EC6B881D2D414F0010D564 /* AppDelegate.swift */; };
-		63EC6B8B1D2D414F0010D564 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 63EC6B8A1D2D414F0010D564 /* GameScene.sks */; };
 		63EC6B8D1D2D414F0010D564 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EC6B8C1D2D414F0010D564 /* GameScene.swift */; };
 		63EC6B8F1D2D414F0010D564 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EC6B8E1D2D414F0010D564 /* GameViewController.swift */; };
 		63EC6B921D2D414F0010D564 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63EC6B901D2D414F0010D564 /* Main.storyboard */; };
@@ -16,6 +15,9 @@
 		63EC6B971D2D414F0010D564 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63EC6B951D2D414F0010D564 /* LaunchScreen.storyboard */; };
 		63EC6BA21D2D414F0010D564 /* ChatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EC6BA11D2D414F0010D564 /* ChatchTests.swift */; };
 		63EC6BAD1D2D414F0010D564 /* ChatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EC6BAC1D2D414F0010D564 /* ChatchUITests.swift */; };
+		63EC6BBB1D2D44530010D564 /* player_onionman.png in Resources */ = {isa = PBXBuildFile; fileRef = 63EC6BBA1D2D44530010D564 /* player_onionman.png */; };
+		63EC6BBD1D2D48390010D564 /* monster_oldman.png in Resources */ = {isa = PBXBuildFile; fileRef = 63EC6BBC1D2D48390010D564 /* monster_oldman.png */; };
+		63EC6BBF1D2FE4A50010D564 /* sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 63EC6BBE1D2FE4A50010D564 /* sprites.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +40,6 @@
 /* Begin PBXFileReference section */
 		63EC6B851D2D414F0010D564 /* Chatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63EC6B881D2D414F0010D564 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		63EC6B8A1D2D414F0010D564 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		63EC6B8C1D2D414F0010D564 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		63EC6B8E1D2D414F0010D564 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		63EC6B911D2D414F0010D564 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -51,6 +52,9 @@
 		63EC6BA81D2D414F0010D564 /* ChatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63EC6BAC1D2D414F0010D564 /* ChatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatchUITests.swift; sourceTree = "<group>"; };
 		63EC6BAE1D2D414F0010D564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63EC6BBA1D2D44530010D564 /* player_onionman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player_onionman.png; sourceTree = "<group>"; };
+		63EC6BBC1D2D48390010D564 /* monster_oldman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monster_oldman.png; sourceTree = "<group>"; };
+		63EC6BBE1D2FE4A50010D564 /* sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = sprites.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,13 +106,15 @@
 			isa = PBXGroup;
 			children = (
 				63EC6B881D2D414F0010D564 /* AppDelegate.swift */,
-				63EC6B8A1D2D414F0010D564 /* GameScene.sks */,
 				63EC6B8C1D2D414F0010D564 /* GameScene.swift */,
 				63EC6B8E1D2D414F0010D564 /* GameViewController.swift */,
 				63EC6B901D2D414F0010D564 /* Main.storyboard */,
 				63EC6B931D2D414F0010D564 /* Assets.xcassets */,
 				63EC6B951D2D414F0010D564 /* LaunchScreen.storyboard */,
 				63EC6B981D2D414F0010D564 /* Info.plist */,
+				63EC6BBA1D2D44530010D564 /* player_onionman.png */,
+				63EC6BBC1D2D48390010D564 /* monster_oldman.png */,
+				63EC6BBE1D2FE4A50010D564 /* sprites.atlas */,
 			);
 			path = Chatch;
 			sourceTree = "<group>";
@@ -235,9 +241,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63EC6B8B1D2D414F0010D564 /* GameScene.sks in Resources */,
 				63EC6B971D2D414F0010D564 /* LaunchScreen.storyboard in Resources */,
+				63EC6BBB1D2D44530010D564 /* player_onionman.png in Resources */,
+				63EC6BBD1D2D48390010D564 /* monster_oldman.png in Resources */,
 				63EC6B941D2D414F0010D564 /* Assets.xcassets in Resources */,
+				63EC6BBF1D2FE4A50010D564 /* sprites.atlas in Resources */,
 				63EC6B921D2D414F0010D564 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
